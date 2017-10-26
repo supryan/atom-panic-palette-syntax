@@ -1,0 +1,15 @@
+{
+  "name": "atom-panic-palette-syntax",
+  "theme": "syntax",
+  "version": "1.0.1",
+  "description": "Update to the Panic Palette for Atom",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/supryan/atom-panic-palette-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
