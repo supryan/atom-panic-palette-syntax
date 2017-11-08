@@ -156,6 +156,17 @@ atom-text-editor {
 }
 
 .syntax--punctuation {
+
+  &.syntax--punctuation {
+    &.syntax--separator {
+      &.syntax--key-value {
+        &.syntax--html {
+          color: @very-light-gray;
+        }
+      }
+    }
+  }
+
   &.syntax--array {
     color: @red;
 
