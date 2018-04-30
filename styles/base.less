@@ -139,6 +139,29 @@ atom-text-editor {
   color: @syntax-background-color;
 }
 
+.syntax--source {
+  &.syntax--jsx {
+    .syntax--function {
+      color: @light-orange;
+    }
+
+    .syntax--function-call {
+      .syntax--entity {
+        color: @very-light-gray;
+      }
+      .syntax--brace {
+        color: @very-light-gray;
+      }
+    }
+
+    .syntax--property {
+      &.syntax--period {
+        color: @very-light-gray;
+      }
+    }
+  }
+}
+
 .syntax--string {
   color: @orange;
 
