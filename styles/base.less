@@ -141,8 +141,12 @@ atom-text-editor {
 
 .syntax--source {
   &.syntax--jsx {
-    .syntax--function {
-      color: @light-orange;
+    .syntax--entity {
+      &.syntax--name {
+        &.syntax--function {
+          color: @light-orange;
+        }
+      }
     }
 
     .syntax--function-call {
